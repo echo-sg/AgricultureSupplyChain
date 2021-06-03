@@ -1,0 +1,121 @@
+.topnav {
+  background-color: #333;
+  border: 1px solid black ;
+  margin-top: 0.5px;
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  width: 99%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(171, 203, 212);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(rgb(214, 237, 255), rgb(158, 213, 255), rgb(77, 178, 255));
+
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  color: #212121;
+}
+
+div div {
+  margin-bottom: 250px ;
+}
+
+
+.container {
+  width: 80%;
+  height:300px;
+  margin: 0 auto;
+  padding: 250px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.center{
+  width: 70%;
+  margin: 0 auto;
+  padding: 250px 0;
+  text-align: center;
+}
+.centerH{
+  width: 80%;
+  margin: 0 auto;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.overview{
+  padding-top: 500px;
+}
+
+.bold { 
+  font-weight: bolder;
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    background-color: #004e58;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sell { 
+  background-color: white;
+  color: #D1C4E9;
+}
+
+.ftc-intro {
+  background-color:#0097A7;
+  color:white;
+  width:100%;
+  padding:20px;
+}
+
+.form-group {
+  background-color:#0097A7;
+  color:black;
+  width:50%;
+  padding:30px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.form-break {
+  background-color:transparent;
+  color:white;
+  width:100%;
+  padding:5px;
+}
+
+.horizontal-rule {
+  background-color:#BDBDBD;
+}
